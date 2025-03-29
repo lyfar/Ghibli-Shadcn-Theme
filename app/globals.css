@@ -50,45 +50,36 @@
 
 :root {
   --radius: 0.75rem;
-  /* 基础色调调整 */
   --foreground: rgba(51, 41, 31, 1);
   --card: rgba(249, 246, 238, 1);
   --card-foreground: rgba(86, 63, 33, 1);
   --popover: rgba(249, 246, 238, 1);
   --popover-foreground: rgba(51, 41, 31, 1);
 
-  /* 主要交互元素 */
   --primary: rgba(125, 139, 77, 1);
   --primary-foreground: rgba(249, 246, 238, 1);
 
-  /* 次要元素 */
   --secondary: rgba(242, 238, 225, 1);
   --secondary-foreground: rgba(51, 41, 31, 1);
 
-  /* 强调色 */
   --accent: rgba(86, 140, 111, 1);
   --accent-foreground: rgba(249, 246, 238, 1);
 
-  /* 边框和输入框 */
   --border: rgba(180, 170, 150, 0.9);
   --input: rgba(242, 238, 225, 1);
   --ring: rgba(67, 110, 87, 0.5);
 
-  /* 禁用和次要文本 */
   --muted: rgba(242, 238, 225, 0.8);
   --muted-foreground: rgba(102, 92, 82, 0.8);
 
-  /* 错误状态 */
   --destructive: rgba(188, 71, 73, 1);
 
-  /* 图表颜色 */
   --chart-1: rgba(67, 110, 87, 1);
   --chart-2: rgba(86, 140, 111, 1);
   --chart-3: rgba(180, 170, 150, 1);
   --chart-4: rgba(242, 238, 225, 1);
   --chart-5: rgba(51, 41, 31, 1);
 
-  /* 侧边栏 */
   --sidebar: rgba(249, 246, 238, 1);
   --sidebar-foreground: rgba(51, 41, 31, 1);
   --sidebar-primary: rgba(67, 110, 87, 1);
