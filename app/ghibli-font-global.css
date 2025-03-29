@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondLightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondSemiBold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondSemiBoldItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondSemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondSemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GhibliFont';
+  src: url('/fonts/GeorgiaPro-CondBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: 'GhibliFont', ui-sans-serif, system-ui, sans-serif;
+}
