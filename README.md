@@ -1,4 +1,4 @@
-# Ghibli Styled shadcn/ui
+# Ghibli Style Shadcn/ui
 
 A Ghibli-inspired UI theme built with [shadcn/ui](https://ui.shadcn.dev/) for Next.js apps. Soft colors, dreamy details — perfect for calm and elegant interfaces.
 
