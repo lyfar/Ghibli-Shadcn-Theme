@@ -75,11 +75,11 @@
 
   --destructive: rgba(188, 71, 73, 1);
 
-  --chart-1: rgba(67, 110, 87, 1);
-  --chart-2: rgba(86, 140, 111, 1);
-  --chart-3: rgba(180, 170, 150, 1);
-  --chart-4: rgba(242, 238, 225, 1);
-  --chart-5: rgba(51, 41, 31, 1);
+  --chart-1: rgba(213, 230, 202, 1); 
+  --chart-2: rgba(172, 207, 158, 1); 
+  --chart-3: rgba(121, 171, 126, 1); 
+  --chart-4: rgba(88, 140, 97, 1);    
+  --chart-5: rgba(62, 102, 71, 1); 
 
   --sidebar: rgba(249, 246, 238, 1);
   --sidebar-foreground: rgba(51, 41, 31, 1);

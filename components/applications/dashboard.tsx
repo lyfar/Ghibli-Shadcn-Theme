@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { ArrowUpRight, BarChart3, DollarSign, Users } from "lucide-react"
+import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar, Cell, ResponsiveContainer } from "recharts"
 
 export function DashboardShowcase() {
   return (
@@ -66,8 +67,41 @@ export function DashboardShowcase() {
               <CardTitle>Overview</CardTitle>
             </CardHeader>
             <CardContent className="pl-2">
-              <div className="h-[200px] w-full bg-muted/20 rounded-md flex items-center justify-center text-muted-foreground">
-                Chart Placeholder
+              <div className="h-64 w-full">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart
+                    data={[
+                      { name: 'January', value: 400 },
+                      { name: 'February', value: 300 },
+                      { name: 'March', value: 600 },
+                      { name: 'April', value: 200 },
+                      { name: 'May', value: 800 },
+                    ]}
+                    margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-3)" opacity={0.3} />
+                    <XAxis dataKey="name" stroke="var(--chart-5)" />
+                    <YAxis stroke="var(--chart-5)" />
+                    <Tooltip
+                      contentStyle={{
+                        backgroundColor: 'var(--chart-4)',
+                        borderColor: 'var(--chart-1)',
+                        color: 'var(--chart-5)'
+                      }}
+                    />
+                    <Bar dataKey="value" fill="var(--chart-2)" radius={[8, 8, 0, 0]} barSize="50%">
+                      {[
+                        { name: 'January', value: 400 },
+                        { name: 'February', value: 300 },
+                        { name: 'March', value: 600 },
+                        { name: 'April', value: 200 },
+                        { name: 'May', value: 1500 },
+                      ].map((_, index) => (
+                        <Cell key={`cell-${index}`} fill={`var(--chart-${index+1})`} />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
               </div>
             </CardContent>
           </Card>
@@ -79,9 +113,9 @@ export function DashboardShowcase() {
             <CardContent>
               <div className="space-y-8">
                 <div className="flex items-center">
-                  <Avatar className="h-9 w-9">
+                  <Avatar className="h-9 w-9 items-center justify-center space-y-0 border">
                     <AvatarImage src="/placeholder.svg" alt="Avatar" />
-                    <AvatarFallback>OM</AvatarFallback>
+                    <AvatarFallback>Oc</AvatarFallback>
                   </Avatar>
                   <div className="ml-4 space-y-1">
                     <p className="text-sm font-medium leading-none">Olivia Martin</p>
@@ -92,7 +126,7 @@ export function DashboardShowcase() {
                 <div className="flex items-center">
                   <Avatar className="flex h-9 w-9 items-center justify-center space-y-0 border">
                     <AvatarImage src="/placeholder.svg" alt="Avatar" />
-                    <AvatarFallback>JL</AvatarFallback>
+                    <AvatarFallback>Jl</AvatarFallback>
                   </Avatar>
                   <div className="ml-4 space-y-1">
                     <p className="text-sm font-medium leading-none">Jackson Lee</p>
@@ -101,9 +135,9 @@ export function DashboardShowcase() {
                   <div className="ml-auto font-medium">+$39.00</div>
                 </div>
                 <div className="flex items-center">
-                  <Avatar className="h-9 w-9">
+                  <Avatar className="h-9 w-9 items-center justify-center space-y-0 border">
                     <AvatarImage src="/placeholder.svg" alt="Avatar" />
-                    <AvatarFallback>IN</AvatarFallback>
+                    <AvatarFallback>In</AvatarFallback>
                   </Avatar>
                   <div className="ml-4 space-y-1">
                     <p className="text-sm font-medium leading-none">Isabella Nguyen</p>
