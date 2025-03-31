@@ -2,6 +2,8 @@
 
 [English](README.md) | [中文](README.zh.md)
 
+[**立即体验**](https://ghibli-shadcn-theme.vercel.app/)
+
 一个吉卜力风格的 UI 主题，基于 [shadcn/ui](https://ui.shadcn.dev/) 为 Next.js 应用打造。
 
 <div align="center">
