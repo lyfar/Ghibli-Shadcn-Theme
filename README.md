@@ -2,6 +2,8 @@
 
 [English](README.md) | [中文](README.zh.md)
 
+[**Try it now**](https://ghibli-shadcn-theme.vercel.app/)
+
 A Ghibli-inspired UI theme built with [shadcn/ui](https://ui.shadcn.dev/) for Next.js apps. Soft colors, dreamy details — perfect for calm and elegant interfaces.
 
 <div align="center">
