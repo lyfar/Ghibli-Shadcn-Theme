@@ -93,7 +93,7 @@ export function NotificationShowcase() {
                     </div>
                     <p className="text-sm">Mentioned you in a comment</p>
                     <p className="text-sm text-muted-foreground mt-1">
-                      "Hey @user, can you review this design when you get a chance?"
+                      Hey @user, can you review this design when you get a chance?
                     </p>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ export function NotificationShowcase() {
                       <p className="text-xs text-muted-foreground">1 hour ago</p>
                     </div>
                     <p className="text-sm">Shared a document with you</p>
-                    <p className="text-sm text-muted-foreground mt-1">"Project Requirements.pdf"</p>
+                    <p className="text-sm text-muted-foreground mt-1">Project Requirements.pdf</p>
                   </div>
                 </div>
 
@@ -124,7 +124,7 @@ export function NotificationShowcase() {
                       <p className="text-xs text-muted-foreground">Yesterday</p>
                     </div>
                     <p className="text-sm">Reminder: Team meeting in 30 minutes</p>
-                    <p className="text-sm text-muted-foreground mt-1">"Weekly Sprint Planning"</p>
+                    <p className="text-sm text-muted-foreground mt-1">Weekly Sprint Planning</p>
                   </div>
                 </div>
               </TabsContent>
