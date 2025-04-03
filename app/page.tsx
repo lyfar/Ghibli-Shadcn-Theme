@@ -28,6 +28,9 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import { Separator } from "@/components/ui/separator"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Home } from "lucide-react"
 
 // Component Showcases
 import { ButtonShowcase } from "@/components/showcases/button"
@@ -91,7 +94,13 @@ export default function ComponentShowcase() {
               </BreadcrumbList>
             </Breadcrumb>
           </div>
-          <div className="ml-auto mr-4">
+          <div className="ml-auto mr-4 flex items-center gap-4">
+            <Link href="/home">
+              <Button variant="outline" size="sm">
+                <Home className="mr-2 h-4 w-4" /> 
+                View Home Page
+              </Button>
+            </Link>
             <a
               href="https://github.com/cefeng06/Ghibli-Shadcn-Theme"
               target="_blank"
